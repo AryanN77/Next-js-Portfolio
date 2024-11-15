@@ -52,17 +52,17 @@ function Header() {
           <DropdownMenuContent className="playfair-font">
             <DropdownMenuItem className="font-bold ">
               <div>
-                <Link href="#">Home</Link>
+                <Link href="#home">Home</Link>
               </div>
             </DropdownMenuItem>
             <DropdownMenuItem className="font-bold ">
               <div>
-                <Link href="#">About</Link>
+                <Link href="#about">About</Link>
               </div>
             </DropdownMenuItem>
             <DropdownMenuItem className="font-bold ">
               <div>
-                <Link href="#">Projects</Link>
+                <Link href="#projects">Projects</Link>
               </div>
             </DropdownMenuItem>
           </DropdownMenuContent>

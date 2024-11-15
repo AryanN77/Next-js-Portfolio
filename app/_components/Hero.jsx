@@ -17,7 +17,7 @@ function Hero() {
             alt="bust"
             width={200}
             height={200}
-            className="w-[70%] ml-10 md:ml-0 md:w-[100%] rounded-full mt-48 md:mt"
+            className="w-[90%] ml-5 md:ml-0 md:w-[100%] rounded-full mt-48 md:mt"
           />
         </div>
       </div>
