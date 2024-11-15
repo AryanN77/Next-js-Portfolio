@@ -1,6 +1,6 @@
 import React from "react";
 import heroBg from "@/app/assets/images/herobg.png";
-import barCode from "@/app/assets/images/barCode.png";
+import barCode from "@/app/assets/images/barcode.png";
 import grainImage from "@/app/assets/images/grain.jpg";
 import Image from "next/image";
 function Hero() {
