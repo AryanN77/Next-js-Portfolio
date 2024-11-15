@@ -6,7 +6,7 @@ import Link from "next/link";
 function About() {
   return (
     <div className="bg-secondary h-screen flex flex-col items-center justify-center relative z-0">
-      <div className="absolute top-0 pt-8 md:p-4 left-2 md:right-0">
+      <div className="absolute top-4 left-3 md:top-3 md:right-5 md:translate-x-3/4 ">
         <a href="./resume.pdf" download="Aryan_CV.pdf">
           <button className="font-medium playfair-font z-10 bg-primary text-secondary px-3 py-1 rounded-full">
             Curriculum Vitae
