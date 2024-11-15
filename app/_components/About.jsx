@@ -6,7 +6,7 @@ import Link from "next/link";
 function About() {
   return (
     <div className="bg-secondary h-screen flex flex-col items-center justify-center relative z-0">
-      <div className="absolute top-0 pt-16 md:p-4 right-0">
+      <div className="absolute top-0 pt-8 md:p-4 left-2 md:right-0">
         <a href="./resume.pdf" download="Aryan_CV.pdf">
           <button className="font-medium playfair-font z-10 bg-primary text-secondary px-3 py-1 rounded-full">
             Curriculum Vitae
@@ -34,7 +34,7 @@ function About() {
             <h2>PROBLEM SOLVER</h2>
           </div>
           <div className="w-full flex justify-center md:pl-12 autoBlur">
-            <h2>BIBLIOPHILE</h2>
+            <h2 className="uppercase">Tech Aficionado</h2>
           </div>
           <div className="w-full flex justify-center autoBlur">
             <h2 className="cursor-pointer">& MORE</h2>

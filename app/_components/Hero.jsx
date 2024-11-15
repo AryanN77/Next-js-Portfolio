@@ -22,7 +22,7 @@ function Hero() {
         </div>
       </div>
       <div className="flex flex-col justify-start items-center h-full w-full  py-16 relative">
-        <div className="w-[60%] flex flex-col gap-2 md:gap-0 md:flex-row items-center md:items-start justify-between">
+        <div className="w-[60%] flex flex-col gap-9 md:gap-0 md:flex-row items-center md:items-start justify-between">
           <div className="anton-font flex flex-col gap-3 md:gap-2 text-5xl md:text-[4rem] items-center md:items-start text-wrap">
             <p>Aryan</p>
             <p>Naithani</p>
