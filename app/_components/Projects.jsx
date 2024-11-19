@@ -35,7 +35,7 @@ function Projects() {
           width={100}
           height={100}
           alt="about-img"
-          className="size-40 autoRotate"
+          className="size-40 autoRotate pointer-events-none select-none"
         />
       </div>
       <div className="w-full px-4 flex flex-col gap-1 mt-0">

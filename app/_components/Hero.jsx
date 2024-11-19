@@ -17,7 +17,7 @@ function Hero() {
             alt="bust"
             width={200}
             height={200}
-            className="w-[90%] ml-5 md:ml-0 md:w-[100%] rounded-full mt-48 md:mt"
+            className="w-[90%] ml-5 md:ml-0 md:w-[100%] rounded-full mt-48 md:mt pointer-events-none select-none"
           />
         </div>
       </div>
@@ -29,7 +29,7 @@ function Hero() {
           </div>
           <div className="flex flex-col items-center md:items-end ">
             <Image
-              className="w-[100px] hidden md:block"
+              className="w-[100px] hidden md:block pointer-events-none select-none"
               src={barCode.src}
               alt="barcode"
               width={30}

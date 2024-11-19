@@ -20,20 +20,20 @@ function About() {
             alt="about-img"
             width={100}
             height={100}
-            className="size-40 md:size-56 leftSlide"
+            className="size-40 md:size-56 leftSlide pointer-events-none select-none"
           />
         </div>
         <div className="w-full pt-0 flex flex-col justify-center items-center md:items-start playfair-font gap-2 text-3xl md:text-6xl pb-8 md:col-span-3 h-full">
-          <div className="w-full flex justify-center md:justify-start pr-20 md:pl-0 md:pr-4 autoBlur">
+          <div className="w-full flex justify-center md:justify-start pr-20 md:pl-0 md:pr-4 autoBlur pointer-events-none select-none">
             <h2>ARYAN NAITHANI</h2>
           </div>
-          <div className="pl-10 md:pl-20 autoBlur">
+          <div className="pl-10 md:pl-20 autoBlur pointer-events-none select-none">
             <h2>WEB ENGINEER</h2>
           </div>
-          <div className="w-full flex justify-center md:pr-32 autoBlur">
+          <div className="w-full flex justify-center md:pr-32 autoBlur pointer-events-none select-none">
             <h2>PROBLEM SOLVER</h2>
           </div>
-          <div className="w-full flex justify-center md:pl-12 autoBlur">
+          <div className="w-full flex justify-center md:pl-12 autoBlur pointer-events-none select-none">
             <h2 className="uppercase">Tech Aficionado</h2>
           </div>
           <div className="w-full flex justify-center autoBlur">
